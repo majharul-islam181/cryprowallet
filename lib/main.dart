@@ -1,4 +1,5 @@
 import 'package:cryptowallet/create_wallet/create_wallet.dart';
+import 'package:cryptowallet/secure-your-waller/secure-your-waller.dart';
 import 'package:cryptowallet/splash/splash_screen.dart';
 import 'package:cryptowallet/wallet_setup/walltet_setup.dart';
 import 'package:flutter/material.dart';
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
       ),
       // home: SplashScreen(),
       // home: WalletSetupScreen(),
-      home: CreatePasswordScreen(),
+      // home: CreatePasswordScreen(),
+      home: SecureWalletScreen(),
     );
   }
 }
